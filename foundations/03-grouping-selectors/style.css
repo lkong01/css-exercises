@@ -1,0 +1,12 @@
+.left, .right{
+    font: 28px Helvetica, Times, sans-serif;
+}
+
+.left{
+    background-color: black;
+    color:white;
+}
+
+.right{
+    background-color: yellow;
+}

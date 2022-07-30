@@ -34,7 +34,8 @@ body {
   width: 300px;
   background: royalblue;
 
-  flex: 0 0 auto;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .text{
@@ -51,7 +52,6 @@ body {
 
   padding: 16px;
   width: 300px;
-  
 }
 
 .container{
@@ -59,12 +59,9 @@ body {
   flex: 1;
 }
 
-
-
-
 ul{
   list-style-type: none;
-  padding:16px;
+  padding:0;
   margin:0;
 }
 
